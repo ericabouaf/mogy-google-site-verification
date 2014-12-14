@@ -1,0 +1,42 @@
+{
+  "name": "mogy-google-site-verification",
+  "main": "./index.js",
+  "version": "0.1.0",
+  "description": "Google Site Verification activities for Mogy",
+  "author": {
+    "name": "Eric Abouaf",
+    "email": "eric.abouaf@gmail.com"
+  },
+  "keywords": [
+    "mogy-activity",
+    "google-site-verification"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/neyric/mogy-google-site-verification.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "google-oauth-jwt": "^0.1.4"
+  },
+  "activities": {
+    "google-site-verification_getToken": {
+        "description": "Gets a verification token for the authenticated user to place on a website or domain."
+    },
+    "google-site-verification_insert": {
+        "description": "Verifies ownership of a website or domain."
+    },
+    "google-site-verification_list": {
+        "description": "Gets the list of the authenticated user's verified websites and domains."
+    },
+    "google-site-verification_get": {
+        "description": "Retrieves the most current data for a website or domain."
+    },
+    "google-site-verification_update": {
+        "description": "Modifies the list of owners for a website or domain."
+    },
+    "google-site-verification_delete": {
+        "description": "Unverifies the user's ownership of a website or domain."
+    }
+  }
+}
